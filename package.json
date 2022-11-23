@@ -1,19 +1,30 @@
 {
-  "name": "mymovie-server",
+  "name": "mywallet-server",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/EmersonMatias/my-movie-server.git"
   },
   "author": "Emerson Matthias",
   "license": "ISC",
-  "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.18.2"
+  "bugs": {
+    "url": "https://github.com/EmersonMatias/my-movie-server/issues"
   },
-  "devDependencies": {
+  "homepage": "https://github.com/EmersonMatias/my-movie-server#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "joi": "^17.7.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.12.0",
     "nodemon": "^2.0.20"
   }
 }
